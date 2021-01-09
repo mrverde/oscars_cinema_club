@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Oscarsclub: Tu club de cine virtual</title>
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="img/favicon.ico"
+      sizes="any"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a id="top"></a>
+    <div id="header-container">
+      <header class="margin-bottom-40">
+        <div class="logo-header">
+          <a href="index.html">
+            <div id="logo-header-inner">
+              <img
+                id="oscarsclub-img"
+                src="img/oscarsclub-isologo.png"
+                alt="Oscarsclub logo"
+              />
+              <div id="logo-text-header">
+                <span id="logo-oscars" class="color-black bold">oscars</span
+                ><span id="logo-club" class="color-red italic">club</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="links-header">
+          <ul class="font-open-sans">
+            <li>
+              <a
+                class="visited-black hover-black-alpha"
+                href="clubes-tematicos.html"
+                >CLUBES TEMÁTICOS</a
+              >
+            </li>
+            <li>
+              <a
+                class="visited-black hover-black-alpha"
+                href="sesiones-2020.html"
+                >SESIONES 2020</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="button-header">
+          <button class="btn btn-header" type="submit" form="formulario-index">
+            Iniciar sesión
+          </button>
+        </div>
+      </header>
+    </div>
+    <main>
+      <h1 class="margin-bottom-30 align-center">
+        ¿Qué es Oscars Club?
+      </h1>
+      <p
+        class="margin-bottom-40 align-center line-height-1dot8 oscars-max-width"
+      >
+        Oscars Club organiza clubes virtuales de cine de diversos géneros y en
+        diferentes lenguas, para los amantes del cine que quieran compartir
+        reflexiones y debatir sobre las películas que les interesan sin
+        necesidad de tener que ir a un espacio físico.
+      </p>
+      <h1 class="align-center">¿Cómo funciona?</h1>
+      <div id="all-index-blocks" class="align-center margin-bottom-120">
+        <div class="block-logo">
+          <img src="img/howto-register.png" alt="Howto register" />
+          <div>Regístrate</div>
+        </div>
+        <div class="block-logo">
+          <img src="img/howto-club.png" alt="Howto club" />
+          <div>Inscríbete en un club</div>
+        </div>
+        <div class="block-logo">
+          <img src="img/howto-film.png" alt="Howto film" />
+          <div>Elige una película</div>
+        </div>
+        <div class="block-logo">
+          <img src="img/howto-speech.png" alt="Howto speech" />
+          <div>Disfruta del debate</div>
+        </div>
+      </div>
+      <h1 class="align-center margin-bottom-30">Únete al club</h1>
+      <div id="block-unete-club-index">
+        <div class="block-unete">
+          <p class="font-size-1dot8rem line-height-2dot8">
+            Estamos mirando tu próxima película preferida.<br />¿Te lo vas a
+            perder?
+          </p>
+        </div>
+        <div class="block-unete">
+          <form method="POST" id="formulario-index">
+            <div id="index-form-fields">
+              <input
+                type="text"
+                id="nombre"
+                class="box"
+                placeholder="Nombre"
+                required
+              />
+              <input
+                type="text"
+                id="email"
+                class="box"
+                placeholder="Correo electrónico"
+                required
+              />
+              <input
+                type="text"
+                id="password"
+                class="box"
+                placeholder="Contraseña"
+                required
+              />
+            </div>
+            <p
+              class="font-size-0dot8 margin-top-10 margin-bottom-20 line-height-1dot4"
+            >
+              INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
+              <span class="bold">OSCARS CLUB. Finalidades:</span> recogida de
+              datos para la inscripción como socio del interesado.<span
+                class="bold"
+                >Legitimación:</span
+              >
+              Consentimiento del interesado.
+              <span class="bold">Destinatarios:</span> No están previstas
+              cesiones de datos a terceros, salvo obligación legal.
+              <span class="bold">Derechos:</span> Puede retirar su
+              consentimiento en cualquier momento, así como acceder, rectificar,
+              suprimir sus datos y otros derechos dirigiéndose a
+              <a
+                class="color-black hover-red"
+                href="mailto:oscarsclub@oscarsclub.org"
+                >oscarsclub@oscarsclub.org</a
+              >. <span class="bold">Información Adicional:</span> Puede ampliar
+              la información en el enlace de
+              <a class="color-red hover-red-alpha" href="">Aviso Legal</a> y
+              <a class="color-red hover-red-alpha" href=""
+                >Política de privacidad</a
+              >.
+            </p>
+            <div class="font-size-0dot8 margin-bottom-20">
+              <input type="checkbox" id="readed" value="readed" required />
+              He leído y acepto la política de privacidad
+            </div>
+          </form>
+          <button
+            class="btn btn-register"
+            type="submit"
+            form="formulario-index"
+          >
+            REGISTRARSE
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="color-white padding-top-60 font-open-sans margin-top-120">
+      <div class="bg-color-content">
+        <div id="footer-links">
+          <ul>
+            <li><a href="">Sobre nosotros</a></li>
+            <li><a href="">Aviso legal</a></li>
+            <li><a href="">Política de privacidad</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Youtube</a></li>
+          </ul>
+        </div>
+        <ul class="margin-top-40 font-size-0dot8">
+          <li>&copy; 2020 José Domingo Mateo Vázquez</li>
+          <li>Iconos <a href="https://www.flaticon.com">flaticon.com</a></li>
+          <li>Imágenes <a href="https://unsplash.com">unplash.com</a></li>
+          <li id="go-up-button"><a href="#top">&xwedge;</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
