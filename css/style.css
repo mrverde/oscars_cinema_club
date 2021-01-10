@@ -409,6 +409,15 @@ div#footer-links ul {
   #info-film-container {
     margin-top: 40px;
   }
+
+  #clubes-tematicos-main-container {
+    width: 95%;
+    margin: auto;
+  }
+
+  #breadcrumb-container {
+    width: 100vw;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -478,6 +487,10 @@ div#footer-links ul {
     min-width: 300px;
     text-align: justify;
     margin-left: 20px;
+  }
+
+  #breadcrumb-container {
+    width: 100vw;
   }
 }
 
@@ -589,15 +602,11 @@ button.btn-register {
   opacity: 0.5;
 }
 
-#breadcrumb-container {
-  width: 25vw;
-}
-
 #ls-breadcrumb {
   display: flex;
   white-space: nowrap;
   list-style-type: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 #ls-breadcrumb li + li:before {
